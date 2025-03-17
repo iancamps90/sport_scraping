@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Scrap</title>
+</head>
+<body>
+    <h1>Noticias Extraídas de El Mundo</h1>
+    <ul>
+        {% for noticia in noticias %}
+            <li>{{ noticia }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
